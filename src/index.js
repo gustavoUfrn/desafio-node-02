@@ -39,6 +39,10 @@ function checksTodoExists(request, response, next) {
   const { username } = request.headers;
   const { id } = request.params;
 
+  if( !(validate(id)) ){
+    return response.status(201).json({ Error: "Shearch needs to be uuid"})
+  }
+
   const user = users.find((user) => user.username === username);
   
   if(!user){
