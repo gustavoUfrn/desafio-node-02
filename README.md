@@ -1,7 +1,7 @@
 
 # Read me
 This project is the base an application to manage tasks. This time focused on working with middlewares.
-#### This project is the base an application to manage tasks.
+#### This project is the base an application to manage tasks, but more advanced than desafio-node-01.
 *Middlewares.* 
 
  - checksExistsUserAccount (checks if user already exist)
